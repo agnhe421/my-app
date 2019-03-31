@@ -1,0 +1,19 @@
+  <!-- Container for sidebar(s) + page content -->
+  <ng-sidebar-container style ="height: 100vh">
+ 
+    <!-- A sidebar -->
+    <ng-sidebar [(opened)]="_opened">
+      <p>Sidebar contents</p>
+      <button (click)="closeSidebar()">Close sidebar</button>
+
+    </ng-sidebar>
+
+    <!-- Page content -->
+    <div ng-sidebar-content>
+      <button (click)="openSidebar()">Open sidebar</button>
+
+    </div>
+
+
+  </ng-sidebar-container>
+  
