@@ -9,11 +9,13 @@ import { SidebarModule } from 'ng-sidebar';
 import 'rxjs';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {MatButtonModule} from '@angular/material/button';
+import {MainDialogComponent} from './main-dialog/main-dialog.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SidebarComponent
+    SidebarComponent,
+    MainDialogComponent,
   ],
   imports: [
     BrowserModule,
@@ -23,6 +25,6 @@ import {MatButtonModule} from '@angular/material/button';
     MatButtonModule
   ],
   providers: [],
-  bootstrap: [AppComponent, SidebarComponent]
+  bootstrap: [AppComponent, MainDialogComponent]
 })
 export class AppModule { }

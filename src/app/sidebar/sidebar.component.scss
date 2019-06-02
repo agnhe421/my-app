@@ -2,5 +2,9 @@
 @import "../variables.scss";
 
 :host /deep/.ng-sidebar {
-    background-color: $warn; 
+    background-color: white; 
+}
+
+.wrapper{
+    padding: 40px;  
 }
